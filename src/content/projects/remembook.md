@@ -1,6 +1,6 @@
 ---
 title: "RememBook"
-description: "Remember more of what you read"
+description: "Remember more of what you read."
 date: "Aug 2025"
 ---
 
