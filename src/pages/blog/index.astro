@@ -11,11 +11,11 @@ const blog = (await getCollection("blog")).sort((a, b) => b.data.date.valueOf() 
 <BaseLayout title={BLOG.TITLE} description={BLOG.DESCRIPTION}>
   <Container>
     <div class="space-y-8">
-      <h4 class="animate font-semibold text-black dark:text-white">{BLOG.TITLE}</h4>
-      <p class="animate text-black dark:text-white">
+      <h4 class="font-semibold text-black dark:text-white">{BLOG.TITLE}</h4>
+      <p class="text-black dark:text-white">
         I'm a long-time lurker, and haven't written so much yet. But check back soon!
       </p>
-      <ul class="animate flex flex-col gap-4">
+      <ul class="flex flex-col gap-4">
         {
           blog.map((blog) => (
             <li>
