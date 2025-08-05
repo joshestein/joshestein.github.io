@@ -1,5 +1,5 @@
 ---
-title: "Ambition vs. Satisfaction"
+title: "Ambition vs. satisfaction"
 description: "To strive for more or remain content"
 date: "05 Aug 2025"
 ---
