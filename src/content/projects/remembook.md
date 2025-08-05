@@ -18,4 +18,6 @@ on the content of each book.
 Considering AI has read every book, it became a natural extension to ask an LLM
 to create these quiz questions.
 
+You can check it out at [remembook.app](https://remembook.app).
+
 This is the first paid product I'm launching!
