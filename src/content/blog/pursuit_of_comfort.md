@@ -28,7 +28,7 @@ people just so they know what it is to suffer! But there is an inevitability of
 unwanted pain that we all experience.
 
 But there is a ton of _necessary_ suffering we face; the first noble truth
-after all: all life is suffering. And throughout all this necessary suffering,
+after all: life is suffering. And throughout all this necessary suffering,
 there is great opportunity to grow and learn. But more than this, I think it
 makes your life meaningful and worthwhile.
 
