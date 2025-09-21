@@ -1,8 +1,8 @@
 ---
 company: "Amplify Education / Mathigon"
 role: "Software Engineer"
-dateStart: "2021-03-01"
-dateEnd: "Current"
+dateStart: "2021-03"
+dateEnd: "2025-08"
 ---
 
 Mathigon (acquired by Amplify Education) is an edtech startup dedicated to making maths more interactive, playful and
