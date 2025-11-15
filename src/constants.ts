@@ -18,12 +18,14 @@ export const BLOG: Metadata = {
   DESCRIPTION: "Things I want to write about.",
 };
 
-export const WORK: Metadata = {
-  TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
 };
 
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
   DESCRIPTION: "Some of my favourite projects.",
+};
+
+export const WORK: Metadata = {
+  TITLE: "Work",
+  DESCRIPTION: "Where I have worked and what I have done.",
 };
