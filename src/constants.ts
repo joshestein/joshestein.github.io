@@ -18,6 +18,9 @@ export const BLOG: Metadata = {
   DESCRIPTION: "Things I want to write about.",
 };
 
+export const NOW: Metadata = {
+  TITLE: "Now",
+  DESCRIPTION: "What I'm doing right now.",
 };
 
 export const PROJECTS: Metadata = {
