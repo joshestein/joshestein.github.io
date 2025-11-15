@@ -6,27 +6,30 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title={NOW.TITLE} description={NOW.DESCRIPTION}>
-  <Container>
-    <div class="space-y-8">
-      <h1 class="font-semibold text-black dark:text-white">What's going on?</h1>
+  <Container class="space-y-8">
+    <h1 class="font-semibold text-black dark:text-white">What's going on?</h1>
 
-      <div class="flex flex-col gap-4">
-        <section id="location">
-          <p>I'm back in South Africa.</p>
-        </section>
+    <div class="flex flex-col gap-4">
+      <section id="location">
+        <p>I'm back in South Africa.</p>
+      </section>
 
-        <section id="work">
-          <p>I'm working for <Link external href="https://bluedot.org/">BlueDot Impact.</Link></p>
-        </section>
+      <section id="work">
+        <p>I'm working for <Link external href="https://bluedot.org/">BlueDot Impact.</Link></p>
+      </section>
 
-        <section id="learning">
-          <p>I'm learning <Link external href="https://elixir-lang.org/">Elixir</Link> and <Link external href="https://www.phoenixframework.org/">Phoenix</Link>.</p>
-        </section>
+      <section id="learning">
+        <p>
+          I'm learning <Link external href="https://elixir-lang.org/">Elixir</Link> and <Link
+            external
+            href="https://www.phoenixframework.org/">Phoenix</Link
+          >.
+        </p>
+      </section>
 
-        <section id="building">
-          <p>I'm building <Link external href="https://remembook.app">RememBook</Link> and RememCast.</p>
-        </section>
-      </div>
+      <section id="building">
+        <p>I'm building <Link external href="https://remembook.app">RememBook</Link> and RememCast.</p>
+      </section>
     </div>
   </Container>
 </BaseLayout>

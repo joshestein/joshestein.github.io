@@ -5,32 +5,30 @@ import { SITE } from "@constants";
 ---
 
 <header>
-  <Container>
-    <div class="flex flex-wrap justify-between gap-y-2">
-      <Link href="/" underline={false}>
-        <div class="font-semibold">
-          {SITE.NAME}
-        </div>
-      </Link>
-      <nav class="flex gap-1">
-        <Link href="/"> home</Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href="/now"> now</Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href="/work"> work</Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href="/projects"> projects</Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href="/blog"> blog</Link>
-      </nav>
-    </div>
+  <Container class="flex flex-wrap justify-between gap-y-2">
+    <Link href="/" underline={false}>
+      <div class="font-semibold">
+        {SITE.NAME}
+      </div>
+    </Link>
+    <nav class="flex gap-1">
+      <Link href="/"> home</Link>
+      <span>
+        {`/`}
+      </span>
+      <Link href="/now"> now</Link>
+      <span>
+        {`/`}
+      </span>
+      <Link href="/work"> work</Link>
+      <span>
+        {`/`}
+      </span>
+      <Link href="/projects"> projects</Link>
+      <span>
+        {`/`}
+      </span>
+      <Link href="/blog"> blog</Link>
+    </nav>
   </Container>
 </header>
