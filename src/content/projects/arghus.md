@@ -1,6 +1,6 @@
 ---
 title: "Arghus"
-description: "Defense against spam calls"
+description: "Defense against spam calls."
 date: "Nov 2025"
 ---
 
