@@ -4,26 +4,34 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme inline {
+  --color-accent: var(--accent);
+}
+
 html {
   overflow-y: scroll;
   color-scheme: light;
+  background-color: #f7f6f3;
+  --accent: #2a6049;
 }
 
 html.dark {
   color-scheme: dark;
+  background-color: #0f1117;
+  --accent: #52b788;
 }
 
 body {
   display: flex;
   flex-direction: column;
   @apply font-sans antialiased;
-  @apply bg-stone-100 dark:bg-[hsla(0,0%,100%,0.1)];
-  @apply text-black/70 dark:text-white/90;
+  @apply bg-[#f7f6f3] dark:bg-[#0f1117];
+  @apply text-black/70 dark:text-white/85;
 }
 
 header {
   @apply fixed top-0 right-0 left-0 z-1 py-5;
-  @apply bg-stone-100/75 dark:bg-[hsla(162,42%,62%,0.2)];
+  @apply bg-[#f7f6f3]/80 dark:bg-[#0f1117]/80;
   @apply saturate-200 backdrop-blur-sm;
 }
 
@@ -35,7 +43,7 @@ article {
   @apply prose dark:prose-invert prose-img:mx-auto prose-img:my-auto max-w-full;
   @apply prose-headings:font-semibold prose-p:font-serif;
   @apply prose-headings:text-black prose-headings:dark:text-white;
-  @apply prose-p:mt-1;
+  @apply prose-p:mt-3;
 }
 
 footer {
