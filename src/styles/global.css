@@ -42,11 +42,16 @@ main {
   @apply flex-1 py-28;
 }
 
+a {
+  @apply decoration-black/15 dark:decoration-white/30;
+}
+
 article {
   @apply prose dark:prose-invert prose-img:mx-auto prose-img:my-auto max-w-full;
   @apply prose-headings:font-semibold prose-p:font-serif;
   @apply prose-headings:text-black prose-headings:dark:text-white;
   @apply prose-p:mt-3;
+  @apply prose-a:decoration-black/15 dark:prose-a:decoration-white/30;
 }
 
 footer {
