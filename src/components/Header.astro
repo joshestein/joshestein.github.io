@@ -2,6 +2,17 @@
 import Container from "@components/Container.astro";
 import Link from "@components/Link.astro";
 import { SITE } from "@constants";
+
+const { pathname } = Astro.url;
+const isActive = (path: string) =>
+  path === "/" ? pathname === "/" : pathname.startsWith(path);
+
+const navLinks = [
+  { href: "/now", label: "now" },
+  { href: "/work", label: "work" },
+  { href: "/projects", label: "projects" },
+  { href: "/blog", label: "blog" },
+];
 ---
 
 <header>
@@ -13,16 +24,19 @@ import { SITE } from "@constants";
     </Link>
     <nav class="flex gap-1">
       <div class="hidden sm:block">
-        <Link href="/"> home</Link>
+        <span class={isActive("/") ? "text-accent" : ""}>
+          <Link href="/"> home</Link>
+        </span>
         <span>/</span>
       </div>
-      <Link href="/now"> now</Link>
-      <span>/</span>
-      <Link href="/work"> work</Link>
-      <span>/</span>
-      <Link href="/projects"> projects</Link>
-      <span>/</span>
-      <Link href="/blog"> blog</Link>
+      {navLinks.map((link, i) => (
+        <>
+          <span class={isActive(link.href) ? "text-accent" : ""}>
+            <Link href={link.href}> {link.label}</Link>
+          </span>
+          {i < navLinks.length - 1 && <span>/</span>}
+        </>
+      ))}
     </nav>
   </Container>
 </header>
