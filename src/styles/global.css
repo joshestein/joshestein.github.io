@@ -43,7 +43,7 @@ main {
 }
 
 a {
-  @apply decoration-black/15 dark:decoration-white/30;
+  @apply decoration-accent-green/50 hover:decoration-accent-green text-current hover:text-accent-green transition-colors duration-100 ease-in-out;
 }
 
 article {
@@ -51,7 +51,7 @@ article {
   @apply prose-headings:font-semibold prose-p:font-serif;
   @apply prose-headings:text-black prose-headings:dark:text-white;
   @apply prose-p:mt-3;
-  @apply prose-a:decoration-black/15 dark:prose-a:decoration-white/30;
+  @apply prose-a:decoration-accent-green/50 hover:decoration-accent-green;
 }
 
 footer {
