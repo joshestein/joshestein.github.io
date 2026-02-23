@@ -41,3 +41,7 @@ article {
 footer {
   @apply py-5 text-sm;
 }
+
+.no-transitions * {
+  transition: none !important;
+}
