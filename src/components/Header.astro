@@ -18,20 +18,20 @@ const navLinks = [
 <header>
   <Container class="flex flex-wrap justify-between gap-y-2">
     <Link href="/" underline={false}>
-      <div class="font-semibold text-accent">
+      <div class="font-semibold text-accent-green">
         {SITE.NAME}
       </div>
     </Link>
     <nav class="flex gap-1">
       <div class="hidden sm:block">
-        <span class={isActive("/") ? "text-accent" : ""}>
+        <span class={isActive("/") ? "text-accent-green" : ""}>
           <Link href="/"> home</Link>
         </span>
         <span>/</span>
       </div>
       {navLinks.map((link, i) => (
         <>
-          <span class={isActive(link.href) ? "text-accent" : ""}>
+          <span class={isActive(link.href) ? "text-accent-green" : ""}>
             <Link href={link.href}> {link.label}</Link>
           </span>
           {i < navLinks.length - 1 && <span>/</span>}
