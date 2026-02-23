@@ -6,6 +6,7 @@
 
 @theme inline {
   --color-accent-green: var(--accent-green);
+  --color-accent-blue: var(--accent-blue);
 }
 
 html {
@@ -13,12 +14,14 @@ html {
   color-scheme: light;
   background-color: #f7f6f3;
   --accent-green: #2a6049;
+  --accent-blue: #3a5a8f;
 }
 
 html.dark {
   color-scheme: dark;
   background-color: #0f1117;
   --accent-green: #52b788;
+  --accent-blue: #7aabcf;
 }
 
 body {
