@@ -14,10 +14,11 @@ porting some vim plugins, designed a comfy config, and learned the power of `g
 YouTube rabbit hole.
 
 I love racing around, `ciw`, `dt"`, `ca{`. I love not having to think about
-things, and being able to edit at the speed I think.
+things, and being able to edit at the speed of thought.
 
 But with the advent of seriously powerful LLMs for coding (I'm looking at you
-Opus 4.6, Gemini Pro 3.1) I don't really need to edit code anymore.
+Opus 4.6, Gemini Pro 3.1) I don't really need to edit code anymore; my work has
+shifted towards being prompt-driven.
 
 It's really sad, but I'm not sure how useful learning vim is anymore. "Wait
 until you ssh into a linux machine and need to manually edit code". Happens once
