@@ -31,8 +31,8 @@ approaches, different fixes, and the long-term costs of their implementation.
 They consider part of their job to be investing in the future of the system.
 
 "I'm sorry, I didn't have time to write you a shorter letter." It's easy to
-write a long one, filled with cruft. Cutting away and figuring out the
-important parts - that's something that takes effort and intention.
+write a long one, filled with cruft. Cutting away and figuring out the important
+parts - that's something that takes effort and intention.
 
 Working as a tactical programmer is easy than ever. You tell an LLM "this is the
 problem, generate a solution". Vast amounts of LOCs are generated in a few
