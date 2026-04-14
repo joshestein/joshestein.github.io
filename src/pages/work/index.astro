@@ -8,7 +8,7 @@ import { getCollection, render } from "astro:content";
 const collection = (await getCollection("work")).sort((a, b) => {
   if (a.data.dateEnd === "Current" && b.data.dateEnd !== "Current") return -1;
   if (a.data.dateEnd !== "Current" && b.data.dateEnd === "Current") return 1;
-  return new Date(b.data.dateStart).valueOf() - new Date(a.data.dateStart).valueOf();
+  return new Date(b.data.dateEnd).valueOf() - new Date(a.data.dateEnd).valueOf();
 });
 
 const work = await Promise.all(
