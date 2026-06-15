@@ -14,6 +14,9 @@
     "astro": "^6.4.7",
     "tailwindcss": "^4.1.1"
   },
+  "overrides": {
+    "vite": "^7"
+  },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "@typescript-eslint/parser": "^8.29.0",
