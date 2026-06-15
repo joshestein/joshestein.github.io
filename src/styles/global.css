@@ -2,11 +2,28 @@
 
 @plugin "@tailwindcss/typography";
 
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("/fonts/Crimson_Pro/CrimsonPro-VariableFont_wght.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("/fonts/Crimson_Pro/CrimsonPro-Italic-VariableFont_wght.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --color-accent-green: var(--accent-green);
   --color-accent-blue: var(--accent-blue);
+  --font-serif: "Crimson Pro", Georgia, serif;
 }
 
 html {
@@ -52,6 +69,10 @@ article {
   @apply prose-headings:text-black prose-headings:dark:text-white;
   @apply prose-p:mt-3;
   @apply prose-a:decoration-accent-green/50 hover:decoration-accent-green;
+}
+
+p {
+  font-family: var(--font-serif);
 }
 
 footer {
