@@ -10,7 +10,7 @@ more fun working on things that are unknown.
 
 The team I'm working with is really good - everyone is bringing something
 unique to the table, and I'm looking forward to learning from each person's
-unique strengths.
+strengths.
 
 I'm also looking forward to improving my technical skills and understanding the
 fundamentals of AI. I'd really like to learn the inner workings, deeply.
