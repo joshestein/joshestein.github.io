@@ -1,6 +1,6 @@
 ---
 title: "SaveSavvy"
-description: "Smarter financial tracking"
+description: "Smarter financial tracking."
 date: "July 2026"
 ---
 
